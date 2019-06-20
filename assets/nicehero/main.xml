@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,960" overflow="hidden">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n25" name="container" src="ntk66u" fileName="components/empty.xml" xy="1170,70" size="640,890">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0" values="1170,70" default="0,70" tween="true" ease="Expo.Out" duration="0.5"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n21" name="n21" xy="0,0" size="640,70" type="rect" fillColor="#ff333333">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n24" name="n24" xy="15,9" size="145,50" font="微软雅黑" fontSize="35" color="#ff9900" bold="true" text="欢迎光临">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="c1" pages="1" values="-324,9" default="15,9" tween="true" ease="Cubic.Out" duration="0.1"/>
+    </text>
+    <component id="n22" name="btn_back" src="ntk66v" fileName="components/Button10.xml" xy="1186,-1">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0,1" values="1186,-1|956,-1" tween="true" ease="Cubic.Out" duration="0.1"/>
+      <Button title="&lt;&lt; Back"/>
+    </component>
+    <graph id="n26" name="n26" xy="0,70" size="640,889" group="n34_gcdl" type="rect" lineSize="0" fillColor="#ff9f9f9f">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n38_gotk" name="btn_eoschattest" src="ntk66v" fileName="components/Button10.xml" xy="192,85" size="258,69" group="n23">
+      <Button title="eoschat_test" titleFontSize="34"/>
+    </component>
+    <component id="n39_j2il" name="btn_threejs" src="ntk66v" fileName="components/Button10.xml" xy="18,225" size="179,69" group="n23">
+      <Button title="three.js" titleFontSize="34"/>
+    </component>
+    <component id="n6" name="btn_text" src="ntk66v" fileName="components/Button10.xml" xy="16,85" size="163,68" group="n23">
+      <Button title="Play" titleFontSize="34"/>
+    </component>
+    <graph id="n30_921t" name="n30" xy="21,160" size="275,49" group="n37_gcdl" type="rect"/>
+    <text id="n31_921t" name="n31" xy="29,165" size="262,41" group="n37_gcdl" input="true" fontSize="30" autoSize="none" text="nicehero"/>
+    <group id="n37_gcdl" name="n37" xy="21,160" size="275,49" group="n23"/>
+    <group id="n23" name="btns" xy="16,85" size="434,209" group="n34_gcdl" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="c1" pages="0,1" values="16,85|-1109,118" tween="true" ease="Expo.Out" duration="0.5"/>
+    </group>
+    <group id="n34_gcdl" name="n34" xy="0,70" size="640,889" advanced="true"/>
+    <graph id="n35_gcdl" name="n35" xy="537,858" size="100,100" type="rect">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </graph>
+  </displayList>
+  <transition name="t0"/>
+</component>
